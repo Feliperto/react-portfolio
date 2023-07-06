@@ -58,7 +58,7 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"About-me"}>
+        <Link className="link" to={"about-me"}>
           About Me
         </Link>
       </motion.div>
@@ -69,7 +69,7 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"Projects"}>
+        <Link className="link" to={"projects"}>
           Projects
         </Link>
       </motion.div>
@@ -80,7 +80,7 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"My-Skills"}>
+        <Link className="link" to={"my-skills"}>
           My Skills
         </Link>
       </motion.div>
@@ -91,7 +91,7 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"Education"}>
+        <Link className="link" to={"education"}>
           Education
         </Link>
       </motion.div>

@@ -10,10 +10,10 @@ function RoutesMap() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/About-Me" element={<About />} />
-      <Route path="/Projects" element={<Projects />} />
-      <Route path="/My-Skills" element={<Skills />} />
-      <Route path="/Education" element={<Education />} />
+      <Route path="/about-me" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/my-skills" element={<Skills />} />
+      <Route path="/education" element={<Education />} />
     </Routes>
   );
 }
