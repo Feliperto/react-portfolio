@@ -16,7 +16,7 @@ function Navigation() {
       },
     },
   };
-  const skillsLink = {
+  const projectsLink = {
     hidden: { opacity: 0, scale: 0.5 },
     show: {
       opacity: 1,
@@ -27,7 +27,7 @@ function Navigation() {
       },
     },
   };
-  const educationLink = {
+  const skillsLink = {
     hidden: { opacity: 0, scale: 0.5 },
     show: {
       opacity: 1,
@@ -35,6 +35,17 @@ function Navigation() {
       transition: {
         duration: 0.5,
         delay: 0.5,
+      },
+    },
+  };
+  const educationLink = {
+    hidden: { opacity: 0, scale: 0.5 },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 0.6,
+        delay: 0.6,
       },
     },
   };
@@ -47,8 +58,19 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"sobre-mi"}>
-          Sobre Mi
+        <Link className="link" to={"About-me"}>
+          About Me
+        </Link>
+      </motion.div>
+
+      <motion.div
+        className="buttonLink projectsLink"
+        variants={projectsLink}
+        initial="hidden"
+        animate="show"
+      >
+        <Link className="link" to={"Projects"}>
+          Projects
         </Link>
       </motion.div>
 
@@ -58,8 +80,8 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"habilidades"}>
-          Habilidades
+        <Link className="link" to={"My-Skills"}>
+          My Skills
         </Link>
       </motion.div>
 
@@ -69,8 +91,8 @@ function Navigation() {
         initial="hidden"
         animate="show"
       >
-        <Link className="link" to={"educacion"}>
-          Educación
+        <Link className="link" to={"Education"}>
+          Education
         </Link>
       </motion.div>
 
@@ -91,7 +113,7 @@ function Navigation() {
           },
         }}
       >
-        <h2 className="pr__tittle">Hola! Yo soy</h2>
+        <h2 className="pr__tittle">Hello! I'm</h2>
         <h1 className="pr__name">
           <span className="yellowLetter">F</span>elipe{" "}
           <span className="yellowLetter">P</span>erez{" "}

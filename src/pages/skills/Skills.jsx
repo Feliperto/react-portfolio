@@ -27,7 +27,7 @@ function Skills() {
           }}
         >
           <div>
-            <h1 className="title">Habilidades</h1>
+            <h1 className="title">My Skills</h1>
           </div>
         </motion.div>
         <div className="skillsContainer">

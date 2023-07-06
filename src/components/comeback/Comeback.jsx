@@ -20,7 +20,7 @@ function Comeback() {
           }}
         >
           <FaArrowLeft className="arrowLink" />
-          <p className="comebackText">Volver</p>
+          <p className="comebackText">Back</p>
         </motion.div>
       </Link>
     </>

@@ -20,16 +20,9 @@ function About() {
         }}
       >
         <div className="info">
-          <h3 className="quien">Quien Soy?</h3>
+          <h3 className="quien">About Me</h3>
           <p className="description">
-            Soy un joven de 19 años nacido en Argentina. Empecé a estudiar
-            programación en el 2022 luego de no saber que estudiar a futuro, hoy
-            en día ya finalicé varios cursos: Desarrollo Web, Programacion con
-            Js y ReactJS. Mis metas para los años siguientes es seguir
-            estudiando y perfeccionándome, junto a conseguir un trabajo como
-            programador para adquirir experiencia. Mi objetivo como programador
-            es profundizar mis conocimientos y poder trabajar en un buen lugar o
-            emprender por mi cuenta.
+          I am a young man with a strong passion for the world of development. Through various courses, I have acquired knowledge in HTML, CSS, JavaScript, and React, allowing me to create dynamic and interactive web applications. Currently, I am focused on expanding my skills further by diving into the realm of full-stack development through the Microverse program. This comprehensive program is equipping me with the necessary tools and expertise to excel in both front-end and back-end development. I am enthusiastic about honing my abilities and embracing new challenges in pursuit of becoming a well-rounded and proficient developer.
           </p>
         </div>
       </motion.div>

@@ -22,6 +22,9 @@
 /*Info*/
 .info {
     padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .quien {
@@ -62,12 +65,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    /*About*/
-    .about {
-        padding: 120px;
-    }
-    /**/
-
     /*Info*/
     .info {
         padding: 80px 60px;

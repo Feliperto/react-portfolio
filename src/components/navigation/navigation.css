@@ -14,7 +14,7 @@
 .buttonLink {
     position: absolute;
     margin: 10px 10px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 10px;
     text-decoration: none;
     font-weight: 700;
@@ -24,6 +24,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: 0.5s ease-out;
+    text-align: center;
 }
 
 .buttonLink::before {
@@ -50,7 +51,12 @@
 
 .aboutLink {
     top: 0;
-    right: 50;
+    left: 0;
+}
+
+.projectsLink {
+    top: 0;
+    right: 0;
 }
 
 .educationLink {

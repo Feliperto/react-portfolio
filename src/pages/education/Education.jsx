@@ -22,9 +22,11 @@ function Education() {
             damping: 20,
           }}
         >
-          <h1 className="edTitle">Estudios</h1>
-          <h2 className="edSubtitle">Escuela Argentina del Oeste</h2>
-          <span className="edSpan">(Graduado)</span>
+          <h1 className="edTitle">School</h1>
+          <div className="">
+            <h2 className="edSubtitle">Escuela Argentina del Oeste</h2>
+            <span className="edSpan">(Graduated)</span>
+          </div>
         </motion.div>
         <motion.div
           className="educationContainer"
@@ -40,22 +42,22 @@ function Education() {
             damping: 20,
           }}
         >
-          <h1 className="edTitle">Cursos</h1>
+          <h1 className="edTitle">Courses</h1>
           <div>
-            <h2 className="edSubtitle">Desarrollo Web, Coderhouse</h2>
-            <span className="edSpan">(Marzo 2022 - Abril 2022)</span>
+            <h2 className="edSubtitle">Web Development, Coderhouse</h2>
+            <span className="edSpan">(March 2022 - April 2022)</span>
           </div>
           <div>
             <h2 className="edSubtitle">Javascript, Coderhouse</h2>
-            <span className="edSpan">(Mayo 2022 - Julio 2022)</span>
+            <span className="edSpan">(May 2022 - July 2022)</span>
           </div>
           <div>
             <h2 className="edSubtitle">React.Js, UTN</h2>
-            <span className="edSpan">(Semptiembre 2022 - Noviembre 2022)</span>
+            <span className="edSpan">(September 2022 - November 2022)</span>
           </div>
           <div>
             <h2 className="edSubtitle">Java, Codecademy</h2>
-            <span className="edSpan">(Enero 2023 - Marzo 2022)</span>
+            <span className="edSpan">(January 2023 - March 2023)</span>
           </div>
         </motion.div>
       </div>
