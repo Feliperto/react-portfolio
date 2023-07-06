@@ -22,11 +22,16 @@ body {
     margin: 0 auto;
 }
 
-.infoContainer {
+.projectContainer {
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #31414b;
+    border: 2px solid #F62A66;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.4);
+    margin: auto;
 }
 
 .features__img {
@@ -85,7 +90,7 @@ body {
         max-width: 680px;
     }
     
-    .infoContainer {
+    .projectContainer {
         flex-direction: column;
         max-width: 300px;
         align-items: initial;
@@ -137,7 +142,7 @@ body {
         font-size: 50px;
     }
     
-    .infoContainer {
+    .projectContainer {
         max-width: 400px;
     }
 

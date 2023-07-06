@@ -11,7 +11,7 @@ const projects = [
     language1: "HTML",
     language2: "CSS",
     language3: "JavaScript",
-    img: "../src/assets/portfolio.png",
+    img: "/src/assets/portfolio.png",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     language1: "HTML",
     language2: "CSS",
     language3: "JavaScript",
-    img: "../src/assets/capstone.png"
+    img: "/src/assets/capstone.png"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const projects = [
     language1: "HTML",
     language2: "CSS",
     language3: "JavaScript",
-    img: "../src/assets/awesome.png"
+    img: "/src/assets/awesome.png"
   },
 ];
 
@@ -41,7 +41,7 @@ projects.forEach((el) => {
   elements.push(
     <article key={el.id} className="projects__container">
       <motion.div
-        className="infoContainer"
+        className="projectContainer"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{
